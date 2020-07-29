@@ -1,0 +1,48 @@
+.grid{
+    /* background-color: green; */
+}
+
+.content{
+    padding: 20px;
+    font-size: large;
+}
+
+.sectionCh{
+    padding-bottom: 300px;
+    transform: translateY(110px);
+    /* background-color: hotpink; */
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    /* background-color: greenyellow; */
+    overflow: hidden;
+}
+
+.codImg{
+    background: url('../images/cod.svg');
+    padding: 33%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    .section1{height: 284px;}
+}
+@media only screen and (max-width: 768px){
+    .section1{height: 250px;}
+}
+@media only screen and (max-width: 640px){
+    .section1{height: 300px;}
+}
+@media only screen and (max-width: 600px){
+    .section1{height: 320px;}
+}
+@media only screen and (max-width: 420px){
+    .section1{height: 250px;}
+}
